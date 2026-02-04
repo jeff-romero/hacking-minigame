@@ -1,0 +1,271 @@
+/*
+    HACKING MINI-GAME
+
+    CREATED BY: JEFFREY BRIAN NILLO ROMERO
+    GITHUB: https://github.com/jeff-romero
+            https://jeff-romero.github.io/
+    DATE: December 2026
+
+    OBFUSCATED MANUALLY BY: JEFFREY BRIAN NILLO ROMERO
+
+    NO AI USED. JUST MY SKILLS. I AM PROUD OF THAT.
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: clamp(1rem, calc(1vw + .5rem), 2rem);
+    /* 
+        WACKY FONTS TO TRY!
+        - Source Code Pro
+        - Unispace
+    */
+    font-family: "Source Code Pro";
+}
+
+:root {
+    --glacier-blue: #4498ae;
+    --azure-sky: #447fa7;
+    --calm-water: #7aaabc;
+    --lavender-mist: #a6a8dc;
+    --creamy: #fffff5;
+    --urban-steel: #35383e;
+}
+
+#x6xGkrkO7o {
+    background-color: var(--urban-steel);
+}
+
+#rUlD9i7V {
+    position: relative;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    color: lightgreen;
+    background-color: var(--urban-steel);
+    user-select: none;
+}
+
+#bOwk_cY5Xt2N1Q {
+    position: relative;
+    display: flex;
+    color: lightgreen;
+    background-color: var(--urban-steel);
+    user-select: none;
+}
+
+#yHIRTHh {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--urban-steel);
+    gap: 2vw;
+    padding: min(0.2rem, 8%);
+}
+
+#xJ7p8pWgQe {
+    display: flex;
+    flex-direction: column;
+}
+
+#aQUOW9n2kq0N3bg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#vatiHBlAw {
+    display: flex;
+}
+
+#p7uTGTGam1NI8n3 {
+    display: flex;
+    border: 0.1vw solid lightgreen;
+    padding-inline: 1vw;
+}
+
+#fdYq1uC0jSNM {
+    width: 100%;
+    height: 0.5rem;
+    background-color: lightgreen;
+    margin-top: 1vw;
+}
+
+#pxOykobqFT {
+    display: flex;
+    flex-direction: column;
+    border: 0.1vw solid lightgreen;
+}
+
+#jchrezRdopmwdA {
+    color: var(--urban-steel);
+    background-color: lightgreen;
+}
+
+#eaCbdZiYDyS29lr {
+    position: relative;
+    flex: 1;
+    display: grid;
+    gap: 1em;
+}
+
+.yXzDpnx {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: calc(2vw + 2em);
+    grid-auto-flow: column;
+    gap: 1em;
+}
+
+.rEpd__WL {
+    display: flex;
+    width: calc(2vw + 2em);
+    height: calc(2vw + 2em);
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#i27ZLS5az {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--urban-steel);
+    padding: min(0.2rem, 8%);
+}
+
+#vlZpyI492IaaMj {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#yqAoAdG2ia {
+    padding-left: 1vw;
+}
+
+#bcOPD1XZzI9o {
+    position: relative;
+    height: calc(2vw + 2em);
+    width: 100%;
+    display: flex;
+    padding: 1vw;
+    border: 0.1vw solid;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+    flex-shrink: 0.5;
+}
+
+.yw3EVTttf3 {
+    border: 0.1vw dashed;
+}
+
+#ynl8BomfTfumR6l {
+    display: flex;
+    flex-direction: column;
+    border: 0.1vw solid;
+    flex-shrink: 0.5;
+}
+
+#j1WuBVjKyIS3Hw {
+    border-bottom: 0.1vw solid;
+}
+
+#eknydJpWYtsUo {
+    display: flex;
+    flex-direction: column;
+}
+
+.bh9jBjvLe4 {
+    display: flex;
+}
+
+#svXWWNtVg {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 3vw;
+    border: 0.1vw solid;
+    text-align: center;
+    gap: 1vw;
+}
+
+#jtIpJmOXQ1N0b2b {
+    background-color: var(--urban-steel);
+    border: bevel;
+}
+
+#avKKXWFb4rHHI {
+    align-self: center;
+    display: none;
+    flex-direction: column;
+    border: 0.1vw solid lightgreen;
+    background-color: var(--urban-steel);
+    gap: 1vw;
+    padding-bottom: 1vw;
+}
+
+#tOfMBNbiHJIPI {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(21, 28, 121);
+    padding: 0.6vw;
+    border-bottom: 0.1vw solid;
+}
+
+#ku2Uf5drn {
+    width: 4vw;
+    text-align: center;
+    padding-block: 0.5vw;
+    border: bevel;
+    background-color: rgb(153, 153, 153);
+}
+
+.pTSeec8ygDPTl {
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+}
+
+.zmvLlbR {
+    text-wrap: nowrap;
+}
+
+#qrEGhyDbaxaoAl {
+    min-width: 5rem;
+}
+
+#jnjg3wgWueMbmll {
+    min-width: 5rem;
+}
+
+.zEZKIt4_2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ub4VMkph1cGq {
+    display: flex;
+    color: red;
+}
+
+.oSS6suAKZaUzz {
+    align-self: center;
+    padding: 0.5vw;
+    color: lightgreen;
+    background-color: var(--urban-steel);
+    border: bevel;
+}
