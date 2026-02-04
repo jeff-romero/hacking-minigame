@@ -20,7 +20,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: clamp(1rem, calc(1vw + .5rem), 2rem);
+    font-size: clamp(0.9rem, calc(1vw + .5rem), 1.2rem);
     /* 
         WACKY FONTS TO TRY!
         - Source Code Pro
@@ -142,6 +142,7 @@
     flex-direction: column;
     background-color: var(--urban-steel);
     padding: min(0.2rem, 8%);
+    gap: 1vw;
 }
 
 #vlZpyI492IaaMj {

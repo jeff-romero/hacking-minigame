@@ -73,6 +73,12 @@ class JlXtmgv8O3qU1Xr extends GT5NXy9gLd {
         let SNJrzPb = this.kHXnrG1xUJM();
         let roqIker_0B5Ad0K = this.SGRhV9y();
         let SvFm3kKgK2 = this.LTSfy0Mc();
+        let bcpAcPYmjnn = document.createElement("div");
+        bcpAcPYmjnn.id = "jchrezRdopmwdA";
+        let ficp2rIUA = document.createElement("p");
+        ficp2rIUA.innerText = "CODE MATRIX";
+        bcpAcPYmjnn.appendChild(ficp2rIUA);
+        q1H5BaiWa.appendChild(bcpAcPYmjnn);
         let gnc_OIP = document.createElement("div");
         gnc_OIP.id = "eaCbdZiYDyS29lr";
         q1H5BaiWa.appendChild(gnc_OIP);
