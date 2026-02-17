@@ -152,18 +152,21 @@ class ExNe6Bd6cZgnSbR {
         };
         let ouRetjkv3ZR = new MutationObserver(kIhXGK_SOcL);
         ouRetjkv3ZR.observe(Pn__eFK45ya, qrD4kdqm);
+        this.slgs92y1q = () => {
+            C7kOM0Uz8tOaS.style.width = ((Pn__eFK45ya.innerText / ofzNEeddS_3Ddeh).toFixed(3) * 100) + "%";
+            requestAnimationFrame(this.slgs92y1q);
+        };
         this.EAnDnBPrw = function() {
             if (nx4U0NtPhAh) {
                 clearInterval(nx4U0NtPhAh);
             }
-            nx4U0NtPhAh = setInterval(function(Pn__eFK45ya, C7kOM0Uz8tOaS, ofzNEeddS_3Ddeh) {
+            nx4U0NtPhAh = setInterval(() => {
                 if (Pn__eFK45ya.innerText <= 0) {
                     fB1Woj7fkpWyt.rgkTOGY2QIzM(QOU890m08EdvHa);
                     return 0;
                 }
                 Pn__eFK45ya.innerText = (Pn__eFK45ya.innerText - 0.01).toFixed(2);
-                C7kOM0Uz8tOaS.style.width = ((Pn__eFK45ya.innerText / ofzNEeddS_3Ddeh).toFixed(3) * 100) + "%";
-            }, 10, Pn__eFK45ya, C7kOM0Uz8tOaS, ofzNEeddS_3Ddeh);
+            }, 10);
         };
         this.dJWLKdQT1V8ec7 = function() {
             clearInterval(nx4U0NtPhAh);
@@ -400,6 +403,7 @@ class FejOKV6LWz5Pi {
             _RPGQ9YDgchYYW.o82y22H();
             Erd8eAqR.style.display = "none";
             hHkRPFL.EAnDnBPrw();
+            hHkRPFL.slgs92y1q();
         };
         this.rgkTOGY2QIzM = function(_mQVpuTvN) {
             hHkRPFL.dJWLKdQT1V8ec7();
