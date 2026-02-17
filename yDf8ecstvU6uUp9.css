@@ -206,6 +206,7 @@
 #jtIpJmOXQ1N0b2b {
     background-color: var(--urban-steel);
     border: bevel;
+    border-color: lightgreen;
 }
 
 #avKKXWFb4rHHI {
@@ -269,4 +270,5 @@
     color: lightgreen;
     background-color: var(--urban-steel);
     border: bevel;
+    border-color: lightgreen;
 }
